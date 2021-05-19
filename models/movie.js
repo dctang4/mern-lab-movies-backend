@@ -4,9 +4,9 @@ const {Schema, model} = require('../db/connection')
 // create movie schema
 const movieSchema = new Schema(
   {
-    name: String,
-    img: String,
-    description: String,
+    name: {type: String, required:true},
+    img: {type: String, required:true},
+    description: {type: String, required:true},
   }, {timestamps: true}
 )
 
