@@ -11,7 +11,7 @@ const movieSchema = new Schema(
 )
 
 // create the model
-const Movie = model('Movie', movieSchema)
+const Movie = model('movie', movieSchema)
 
 module.exports = Movie
 
